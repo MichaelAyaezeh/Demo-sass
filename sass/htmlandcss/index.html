@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=, initial-scale=1.0">
+<title>Document</title>
+<style>
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        /* width: 100%; */
+    }
+    .grow{
+        display: flex;
+    }
+    .nav{
+        display: flex;
+        /* justify-content: ;  */
+        background-color:rgb(241,243,245);;
+    }
+    .better{
+        display: flex;
+        background-color: rgb(241,243,245);
+        justify-content: center;
+        margin: auto;
+    }
+    /* .better1{
+        padding-left:40px ;
+        padding-top:70px;
+    } */
+    .betterh1{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        font-size: 80px;
+        width: 600px;
+        line-height: 80px;
+        opacity: 0.7;
+    }
+    .betterp{
+        padding-top: 30px;
+        line-height: 35px;
+        width: 450px;
+        font-size: 20px;
+    }
+    .betterbtn{
+        height: 30px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: 1px solid;
+        border-color: rgb(236, 156, 134) ;
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-left: 16px;
+        background-color: rgb(236, 156, 134);
+        margin-bottom: 80px;
+    }
+    .betterbtn:hover{
+        background-color:white;
+    }
+    .betterimg{
+        height:80%;
+        width: 80%;
+        padding-left: 130px;
+    }
+    .we{
+        padding-top: 50px;
+        background-color: rgb(241,243,245);
+        margin-bottom: 30px;
+        height: 800px;
+    }
+    .we1{
+        padding-top: 40px;
+        display: flex;
+        padding-left: 40px;
+    }
+    .we1btn{
+        padding: 10px 20px;
+        border: 1px solid black;
+        border-radius: 20px 20px;
+    }
+    .we1h2{
+        font-size: 40px;
+        padding-top: 20px;
+        width:550px
+    } 
+    .welink{
+        color:black;
+        text-decoration:none;
+        position: relative;
+        top: 100px;
+        left: 400px; 
+    }
+    .weimg{
+        padding-top: 50px;
+        padding-left: 40px;
+        height:100px;
+    }
+    .we2>div{
+        margin-left: 20px;
+        border: 1px solid rgb(104, 98, 98);
+        border-top-left-radius: 20px ;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px ;
+        border-bottom-right-radius: 20px;
+        height: 400px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width:300px;
+    }
+    .we2{
+        padding-top: 50px;
+        display: flex;
+        justify-content:center;
+        justify-content:space-around;
+    }
+    .wep{
+        padding-top: 40px;
+        font-size: 20px;
+    }
+    .we2 ul li{
+        font-size: 22px;
+        list-style-type:upper-latin;
+    }
+    .we2 ul{
+        padding-top:30px;
+        padding-left:40px;
+        padding-right:50px; 
+    }
+    .grow{
+        width: 100%;
+        display:flex;
+        justify-content: space-around;
+        margin-top: 30px;
+    }  
+    .growdiv1{
+        width: 450px;
+    }
+    .growh2{
+        font-size: 700px;
+    }
+    .growimg{
+        height: 500px;
+        width: 400px;
+    }
+    .growh2{
+        font-size:300px; 
+    }
+    .growp{
+        font-size: 20px;
+    }
+    .growdiv2{
+        padding-left: 80px;
+        padding-top: 60px;
+    }
+    .rounddiv:hover{
+        border-color:orangered;
+    }
+    
+
+</style>
+</head>
+<body>
+    <!-- nav starts-->
+    <!-- <nav class="nav">
+        <div class="nav1"> Geekfolio </div>
+        <div class="nav2"> 
+            <ul> 
+                <li> HOME</li>
+                <li> PAGES</li>
+                <li> PORTFOLIO</li>
+                <li> BLOGS</li>
+                <li> SHOP</li>
+                <li> CONTACTS </li>
+            </ul>
+         </div>
+    </nav> -->
+    <!-- nav ends-->
+    <!-- Better  design -->
+    <div class="better">
+        <div class=" better1"> 
+            <h1 class="betterh1"> Better designs for your digital product.</h1>
+            <p class="betterp"> We are a creative studio specializing in UI/UX design,
+                development and strategy.
+            </p>
+            <button class="betterbtn"> Explore more </button>
+        </div>
+        <div>
+            <img src="./Images/images/slant.PNG" alt="" class="betterimg">
+        </div>
+    </div>
+    <!-- horizontal line starts -->
+    <hr style="color: rgb(6, 5, 5); opacity: 0.5;">
+    <!-- horizontal line ends -->
+    <!-- we help you -->
+    <div class="we">
+        <div class="we1">
+            <div>
+                <button class="we1btn"> Features </button>
+                <h2 class="we1h2"> We help you to go online &
+                    increase your conversion rate. 
+                </h2>
+            </div>
+            <div>
+                <a href="#" class="welink"> View all services</a>
+            </div>
+        </div>
+        <div class="we2" style="width: 100%;">
+            <div style="width:350px; height:450px;">
+                <img src="./Images/images/weimg1.png" alt="" class="weimg">
+                <p class="wep"> Brand Strategy &
+                    Art Direction
+                </p>
+                 <ul>
+                    <li> user friendly interface  </li>
+                    <li> nothing distracts from work </li>
+                    <li> Easy to start chatting </li>
+                 </ul>
+            </div>
+            <div style="width:350px; height:450px;"> 
+                <img src="./Images/images/weimg2.png" alt="" class="weimg">
+                <p class="wep"> UI/UX Design &
+                    Website/App Design
+                </p>
+                 <ul>
+                    <li> user friendly interface  </li>
+                    <li> nothing distracts from work </li>
+                    <li> Easy to start chatting </li>
+                 </ul>
+            </div>
+            <div style="width:350px; height:450px;">
+                <img src="./Images/images/weimg3.png" alt="" class="weimg">
+                <p class="wep"> Engage your
+                    customers dramatically.
+                </p>
+                <ul>
+                    <li> user friendly interface  </li>
+                    <li> nothing distracts from work </li>
+                    <li> Easy to start chatting </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- we grow-->
+        <div class="grow"  >
+           <div class="growdiv1" style="padding-left: 20px;"> <img src="./Images/images/brandgrowimg.PNG" alt="" class="growimg"> </div>
+           <div class="growdiv2" style="padding-left:60px ; padding-top: 50px;">
+                <h2 class="growh2" style="font-size: 40px;">We grow brands through bold & strategic creative</h2>
+                <div style="padding-top: 20px; font-size: 25px;">
+                    <strong> Website & Mobile App Design</strong>
+                    <p class="growp">
+                        Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.
+                    </p>
+                    <strong> Motion Graphics & Animation </strong>
+                    <p class="growp">
+                        Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.
+                    </p>
+                    <strong> User Experience </strong>
+                    <p class="growp">   
+                        Taken possession of my entire soul, like these sweet mornings of spring which i enjoy with my whole.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- recent project section-->
+        <div class="rec" style="padding-left:30px ; padding-top: 100px;  background-color: rgb(241,243,245); height: 2200px; " >
+                <button class="recbtn" style=" border: 1px solid black;
+                border-radius: 20px 20px; padding:10px;"> PORTFOLIO</button>
+                <div class="rec2" style="display: flex;" >  
+                    <h2 class="rech2" style="padding-top: 20px; font-size: 30px;"> RECENT PROJECT</h2>
+                    <div style="height: 50px; position: relative; top: 30px; right: -900px;"> {}</div>
+                </div>
+                <div style="padding-top: 40px; padding-left: 0;">
+                    <img src="./Images/images/work1.jpg" alt="" style="width: 370px; height: 300px; padding-right: 40px;">
+                    <img src="./Images/images/work2.jpg" alt="" style="width: 370px; height: 300px; padding-right: 40px;">
+                    <img src="./Images/images/work3.jpg" alt="" style="width: 370px; height: 300px; padding-right: 40px;">
+                </div>
+                <!-- outside image section start-->
+                <div style="display: flex;">
+                    <div style="width: 300px; padding-top: 60px ; padding-left: 30px; margin-top: 55px;">
+                        <p style="font-size: 20px; padding-top: 20px;"> OVER 150,000+ CLIENTS</p>
+                        <strong style="font-size: 30px; width:500px;"> Affordable pricing.
+                            Easy scaling.
+                        </strong>
+                        <hr style="margin-top: 20px; width:600px;">
+                    </div>
+                    <div style=" margin-top: 85px; width:100%; border: 1px solid white; background-color:white; border-radius: 20px; display: flex; position: relative; right:-380px; padding:40px;  height: 150px; width: 700px; font-size: 16px;"  >
+                        <div style="width: 100px;">
+                            <strong style=" font-size: 30px; " >Advanced</strong>
+                            <p style="padding-top:20px;"> 14 days free</p>
+                        </div>
+                        <div style="width: 100px; padding-left: 60px;"> 
+                            <ul style="width: 120px; color: black;">
+                                <li> Guarenteed quality control</li>
+                                <li> Top quality service</li>
+                                <li> Best experts at your lease</li>
+                            </ul>
+                        </div>
+                        <div style="width:100px; padding-left: 50px;">
+                            <p style="font-size: 20px;">$19</p>
+                             <button style="border: 1px solid white; border-radius: 20px; margin-top: 30px; margin-left: 20px; padding-left: 20px; padding-right:20px; "> Sign up</button>
+                        </div>
+                    </div>
+                    <!-- second card-->
+                    <div style="display: flex; padding-top: 20px; position: relative; top: 100px; left: -650px; box-sizing: border-box; width: 100%; margin-top: 55px;">
+                        <div style="padding-top: 150px;  ">
+                            <p style="width: 500px; font-size: 30px;"> Things go wrong have questions. We’ve understand. So we have people</p>
+                            <div style="font-size: 25px; padding-bottom: 200px;">
+                                <p style="padding-top: 15px; ">  Amazing communication.</p>
+                                <p style="padding-top: 15px;"> Best trending designing experience.</p>
+                                <p style="padding-top: 15px;"> Email & Live chat.</p>
+                            </div>
+                        </div>
+                        <div style=" margin-top: 40px; width: 400px;  border: 1px solid white ; background-color:rgb(240,143,116);  border-radius: 20px; display: flex; position: relative; left:100px; top:80px; padding: 40px; margin-left: 60px; height: 150px; "  >
+                            <div style="width: 100px;">
+                                <strong style=" font-size: 30px; " >Advanced</strong>
+                                <p style="padding-top:20px;"> 14 days free</p>
+                            </div>
+                            <div style="width: 100px; padding-left: 60px;"> 
+                                <ul style="color: white; width: 120px;">
+                                    <li> Guarenteed quality control</li>
+                                    <li> Top quality service</li>
+                                    <li> Best experts at your lease</li>
+                                </ul>
+                            </div>
+                            <div style="width:100px; padding-left: 50px;">
+                                <p style="font-size: 20px;">$19</p>
+                                <button style="border: 1px solid white; border-radius: 20px; margin-top: 30px; margin-left: 20px; padding-left: 20px; padding-right:20px; "> Sign up</button>
+                            </div>
+                        </div>
+                    </div> 
+                    <hr style="color: rgb(6, 5, 5); opacity: 0.8;">
+                    <!-- second card end-->
+                    <!-- third  card start-->
+                    <div style="display: flex; width: 300px; margin-top: 60px;">
+                        <div style=" position: relative; top: 600px; left:-1600px;  padding-left: 20px; background-color:rgb(241,243,245);"> 
+                            <img src="./Images/images/work4.jpg" alt="" style="height:520px; width: 400px;">
+                            <div style="width: 400px; height: 50%; background-color: white; z-index: 1; position: relative; top: -310px; right: -70px;">
+                              <div style="position: relative; top: 20px; right: -28px;">
+                                <img src="./Images/images/weimg1.png" alt="" style="width: 100px; height: 100px; ">
+                                <p style="font-size: 20px; padding-top: 20px; padding-bottom: 20px;"> We are a creative studio specializing in design, development and strategy many different skills and disciplines in the production of all web.</p>
+                                <a href="#" style="text-decoration: none; color: black;"> Read more  }</a>
+                              </div>
+                            </div>
+                        </div>
+                        <div style=" position: relative; top: 680px; left: -1400px;">
+                            <button style="border: 1px solid black; border-radius: 20px; padding-top:10px; padding-bottom: 10px; padding-left: 20px; padding-right: 20px;"> Services</button>
+                            <p style="font-size: 20px; width: 400px; padding-top: 20px; line-height: 30px;"> We help you to go online and increase your conversion rate Better design for your digital products.</p>
+                            <ul style="font-size: 40px; list-style-type: none; padding-top: 30px; position: relative; left: -40px;  line-height: 60px;">
+                                <li> 01 UI/UX Design</li>
+                                <li> 02 Branding</li>
+                                <li> 02 Branding</li>
+                                <li> 04 Marketing</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- third  card end -->
+                    <!-- fourth  card start -->
+                     <div >
+                         <p style="font-size: 20px; position: relative; top: 1350px; left: -1600px;"> More than 200+ companies trusts us worldwide </p>
+                         <div style="display: flex;  font-size: 20px; padding-top: 30px; position: relative; top: 1400px; left: -1900px;">
+                            <p> ASGARDIA</p>
+                            <p style="padding-left: 200px;"> Nirastate</p>
+                            <p style="padding-left: 200px;"> Velocity9</p>
+                            <p style="padding-left: 200px;"> Utosia</p>
+                            <p style="padding-left: 200px;"> Kanba</p>
+                         </div>
+                     </div>
+                    <!-- fourth  card end -->
+                </div>
+                <!-- outside image section end-->
+            </div>
+            <!-- recent section end -->
+            <!-- keep pushing section start -->
+             <div style="padding-top: 40px; display: flex;">
+                <!-- since from-->
+                <div > 
+                    <div style="font-size: 22px; line-height: 40px; padding-top: 140px;  padding-left: 30px; width: 500px;"> 
+                        <p>SINCE FROM 2008</p>
+                        <h2>Keep pushing forward. We've got your back.</h2>
+                        <p style="padding-bottom: 40px;"> things go wrong have questions. we've understand so we have people </p>
+                        <hr>
+                    </div>
+                    <div  style="display: flex;  padding-top: 60px;">
+                        <div style="font-size: 26px; padding-left:20px; width:250px;"> 120k happy users around the world </div>
+                        <div style="font-size: 26px; padding-left:20px; width:250px;"> 150k project done </div>
+                    </div>
+                </div>
+                <!-- other part-->
+                <div>
+                    <!-- first part-->
+                    <div style="border-top-left-radius:20px;  border-top-right-radius:20px; border-bottom-left-radius:20px; border-bottom-right-radius:20px; background-color: rgb(241,243,245); height:300px; width:600px; position: relative; right:-140px; top: 20px; padding-top: 20px; padding-left: 40px; "> 
+                        <p style="padding-top: 20px; width: 500px; font-size: 20px;"> I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</p>
+                        <div style="padding-top: 20px; display: flex ;">
+                            <div>
+                                <img src="./Images/work4.jpg" alt="" height="100px" style="border:1px; border-radius:60px;">
+                            </div>
+                            <div style="padding-top: 40px; padding-left: 20px;">
+                                <p style="font-size: 2opx;"> Leonard Heiser</p>
+                                <p> C.E.O </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- second part -->
+                    <div style="border-top-left-radius:20px;  border-top-right-radius:20px; border-bottom-left-radius:20px; border-bottom-right-radius:20px; background-color: rgb(241,243,245); height:300px; width:600px; position: relative; right:-140px; top: 20px; padding-top: 20px; padding-left: 40px; margin-top: 30px; "> 
+                        <p style="padding-top: 20px; width: 500px; font-size: 20px;"> I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</p>
+                        <div style="padding-top: 20px; display: flex ;">
+                            <div>
+                                <img src="./Images/work4.jpg" alt="" height="100px" style="border:1px; border-radius:60px;">
+                            </div>
+                            <div style="padding-top: 40px; padding-left: 20px;">
+                                <p style="font-size: 2opx;"> Leonard Heiser</p>
+                                <p> C.E.O </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <!-- keep pushing section end  -->
+            <!--  Approach  section start-->
+             <div style="padding-top: 30px; background-color: rgb(241,243,245); margin-top: 90px ;">
+                <div style="margin-bottom: 80px;">
+                    <button style="border: 1px; border-radius: 20px; padding-left: 40px; padding-bottom: 10px; padding-right: 40px; padding-top: 10px; margin-left: 500px;  margin-top: 100px; background-color: rgb(216, 212, 212);"> Approach </button>
+                    <p style=" margin-left: 480px; word-spacing: 12px; font-size: 30px;  padding-top: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> <b style="color: rgb(21, 21, 21); font-size: 40px;"> OUR Approach.</b> </p>
+                </div>
+                <!-- round Aproach div start-->
+                 <div  style="display: flex; padding-top: 80px;">
+                    <div class="rounddiv" style=" margin-left: 60px; border: 2px solid rgb(78, 77, 77); height:350px;  width: 315px; position: relative; top: -100px;  border-top-left-radius:400px ; border-top-right-radius: 400px; border-bottom-left-radius: 400px; border-bottom-right-radius: 400px;">
+                        <div style="position: relative; top: 80px; left: 18px; text-align: center;">
+                            <p style="font-size: 20px;"> Research </p>
+                            <p style="padding-top: 20px; font-size: 60px; color: gray;"> 01</p>
+                            <p style="width: 300px; line-height: 30px; position: relative; left:-27px;"> we help you to go online and increase your conversion rate</p>
+                            <p> > </p>
+                      </div>
+                    </div>
+                    <div style=" border: 2px solid rgb(78, 77, 77); height: 350px;  width: 315px; position: relative; top: -100px;  left: -20px; border-top-left-radius:400px ; border-top-right-radius: 400px; border-bottom-left-radius: 400px; border-bottom-right-radius: 400px;">
+                        <div style="position: relative; top: 80px; left: 18px; text-align: center; padding-left: 15px;">
+                            <p style="font-size: 20px;"> Concept </p>
+                            <p style="padding-top: 20px; font-size: 60px; color: gray;"> 02</p>
+                            <p style="width: 300px; line-height: 30px; position: relative; left:-27px;"> we help you to go online and increase your conversion rate</p>
+                            <p> > </p>
+                      </div>
+                    </div>
+                    <div style=" border: 2px solid rgb(78, 77, 77); height: 350px; left: -45px;  width: 315px; position: relative; top: -100px;  border-top-left-radius:400px ; border-top-right-radius: 400px; border-bottom-left-radius: 400px; border-bottom-right-radius: 400px;">
+                        <div style="position: relative; top: 80px; left: 18px; text-align: center; padding-left: 22px; padding-right: 5px;">
+                            <p style="font-size: 20px;"> Implement </p>
+                            <p style="padding-top: 20px; font-size: 60px; color: gray;"> 03</p>
+                            <p style="width: 300px; line-height: 30px; position: relative; left:-27px;"> we help you to go online and increase your conversion rate</p>
+                            <p> > </p>
+                      </div>
+                    </div>
+                    <div style=" border: 2px solid rgb(78, 77, 77); height: 350px;  width: 315px; position: relative; top: -100px; left: -80px;  border-top-left-radius:400px ; border-top-right-radius: 400px; border-bottom-left-radius: 400px; border-bottom-right-radius: 400px;">
+                        <div style="position: relative; top: 80px; left: 18px; text-align: center; padding-left: 34px;">
+                            <p style="font-size: 20px;"> Handover </p>
+                            <p style="padding-top: 20px; font-size: 60px; color: gray;"> 04</p>
+                            <p style="width: 300px; line-height: 30px; position: relative; left:-27px;"> we help you to go online and increase your conversion rate</p>
+                            <p> > </p>
+                      </div>
+                    </div>
+                 </div>
+                <!-- round approach div end -->
+             </div>
+            <!--  Approach  section end -->
+            <!-- project in mind starts-->
+             <div style="padding-top: 120px;">
+                <h1 style="font-size: 80px; color: rgb(29, 28, 28); text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Have a project in mind </h1>
+                <h1 style=" padding-bottom: 130px; font-size: 80px; color:rgb(240, 143,116); text-align: center; text-decoration: underline; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Let's get to work  </h1>
+             </div>
+            <!-- project in mind end-->
+            <!-- our blog section starts-->
+             <div style="background-color: rgb(241,243,245); height:700px;">
+                <div style="display: flex; margin-bottom: 100px;">
+                    <div style="padding-top: 50px; padding-left: 65px;">
+                        <button style=" border: 1px solid rgb(46, 45, 45); font-size: 15px; padding-top: 10px; padding-bottom: 10px; padding-left: 30px; padding-right: 30px; border-radius: 20px;"> our blog</button>
+                        <h3 style="padding-top: 30px; color: rgb(53, 52, 52); font-size: 40px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" > Latest News</h3>
+                    </div>
+                    <div style="position: relative; top: 90px;  right: -900px; font-size: 20px;"> View All Our News > </div>
+                </div>
+                <!-- card section starts-->
+                <div style="display: flex; width: 100%;">
+                    <div style="display: flex; margin-left: -30px;">
+                    <div style="padding-left:100px;">
+                        <img src="./Images/images/latestpic1.jpg" alt="" style="height: 400px;">
+                    </div>
+                    <div style="padding-left: 30px; background-color: white;" >
+                        <p style="padding-top: 120px;"> AUGUST 6, 2022</p>
+                        <h3 style="color: rgb(60, 59, 59); width:300px; padding-top: 7px; font-size:25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Free advertising for your online business.</h3>
+                        <div style="display:flex; padding-top:7px;">
+                            <button style="padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px; border-radius: 5px;"> Marketing</button>
+                            <button style=" margin-left: 10px; padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px; border-radius: 5px;"> Design</button>
+                        </div>
+                    </div>
+             </div>
+             <!-- second card-->
+             <div style="display: flex; margin-left: -70px;">
+                    <div style="padding-left:100px;">
+                        <img src="./Images/images/latestpic2.jpg" alt="" style="height: 400px;">
+                    </div>
+                    <div style="padding-left: 30px; background-color: white;" >
+                        <p style="padding-top: 120px;"> AUGUST 6, 2022</p>
+                        <h3 style="color: rgb(60, 59, 59); width:300px; padding-top: 7px; font-size:25px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Business meeting 2023 in San Francisco.</h3>
+                        <div style="display:flex; padding-top:7px;">
+                            <button style="padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px; border-radius: 5px;"> Marketing</button>
+                            <button style=" margin-left: 10px; padding-left: 30px; padding-right: 30px; padding-top: 10px; padding-bottom: 10px; border-radius: 5px;"> Design</button>
+                        </div>
+                    </div>
+             </div>
+
+                </div>
+                <!-- card section ends-->
+            <!-- our blog section end-->
+
+            <!-- last section start-->
+            <div style="display: flex; padding-top:100px; padding-left: 90px;">
+                <div style="padding-right: 120px;">
+                    <h3 style=" color: rgb(15, 15, 15); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Address</h3>
+                    <p style="padding-top: 30px; font-size: 20px; line-height: 30px;"> Germany — 785 15h Street, Office 478 Berlin, De 81566</p>
+                </div>
+                <div style="padding-right: 120px;" >
+                    <h3 style="color: rgb(15, 15, 15); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Say hello</h3>
+                    <p style="padding-top: 30px; font-size: 20px;"> hello@design.com</p>
+                    <p style="padding-top: 30px; font-size: 20px; color: rgb(240, 143,116);  ;"> +1 840 841 25 69</p>
+                </div>
+                <div style="padding-right: 120px;">
+                    <h3 style="color: rgb(15, 15, 15); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Social</h3>
+                    <ul>
+                        <li style="list-style-type: none; padding-top: 20px;"> FACEBOOK </li>
+                        <li style="list-style-type: none; padding-top: 20px;"> TWITTER</li>
+                        <li style="list-style-type: none; padding-top: 20px;"> LINKEDIN</li>
+                        <li style="list-style-type: none; padding-top: 20px;"> INSTAGRAM </li>
+                    </ul>
+                    
+                </div>
+                <div style="padding-right: 120px;">
+                    <h3 style="color: rgb(15, 15, 15); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> Newsletter</h3>
+                    <div style="display: flex;">
+                        <input type="text" placeholder="Type Your Email" style="padding: 4px; border: 1px solid rgba(106, 105, 105,0.4); margin-top: 20px;">
+                        <p style="position: relative; top: 25px; left: -15px;"> > </p>
+                    </div>
+                </div>
+          </div>
+          <!-- last section mid -->
+          <div style="margin-top:60px;">
+            <hr style="opacity: 0.5;">
+         </div>
+            
+        </body>
+    </html>
